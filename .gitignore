@@ -1,0 +1,5 @@
+/analysis/data/leaf_traces/*
+/analysis/data/texts/*
+/analysis/data/texts_ES/*
+/analysis/outputs/processed_leaf_traces/*
+/analysis/outputs/synthetic_leaf_data/*
