@@ -44,19 +44,19 @@ Botany, De la Cruz-Badiano Herbal, Indigenous knowledge, Libellus de Medicinalib
 ![Alt](https://github.com/DanChitwood/DeLaCruzBadiano1552/blob/main/analysis/outputs/figures/fig_CNN_morpheme.png) 
 **Figure 6: Shape features and text distingishing Nahuatl plant groupings.** The three Nahuatl botanical classes (Xihuitl, Xochitl, Quahuitl, Patli, and Quilitl) by row and, left to right, Gradient-weighted Class Activation Mapping (GradCAM) and English and Spanish word clouds that characterize each class by column.  
 
-| Metric                      |   Image-to-Text |   Text-to-Image |   Image-to-Graph |   Graph-to-Image |   Text-to-Graph |   Graph-to-Text |
-|:----------------------------|----------------:|----------------:|-----------------:|-----------------:|----------------:|----------------:|
-| MAP avg.                    |          0.0507 |          0.0635 |           0.044  |           0.0588 |          0.2563 |          0.261  |
-| MAP std.                    |          0.0086 |          0.0053 |           0.0025 |           0.0024 |          0.0036 |          0.0027 |
-| Recall@1 score avg.         |          0.0141 |          0.023  |           0.0131 |           0.0213 |          0.1042 |          0.1094 |
-| Recall@1 score std.         |          0.002  |          0.0018 |           0.0025 |           0.0024 |          0.0027 |          0.0006 |
-| Recall@1 above chance avg.  |         11.4    |         18.6    |          10.6    |          17.2    |         84.2    |         88.4    |
-| Recall@5 score avg.         |          0.0668 |          0.0836 |           0.0589 |           0.0775 |          0.413  |          0.419  |
-| Recall@5 score std.         |          0.0104 |          0.0091 |           0.0089 |           0.0049 |          0.0048 |          0.0036 |
-| Recall@5 above chance avg.  |         10.8    |         13.52   |           9.52   |          12.52   |         66.76   |         67.72   |
-| Recall@10 score avg.        |          0.1165 |          0.1339 |           0.1054 |           0.1232 |          0.6187 |          0.6172 |
-| Recall@10 score std.        |          0.0139 |          0.0071 |           0.0072 |           0.0064 |          0.0072 |          0.0029 |
-| Recall@10 above chance avg. |          9.42   |         10.82   |           8.52   |           9.96   |         50      |         49.88   |
+| Metric                      | Image-to-Text | Text-to-Image | Image-to-Graph | Graph-to-Image | Text-to-Graph | Graph-to-Text |
+| :-------------------------- | ------------: | ------------: | -------------: | -------------: | ------------: | ------------: |
+| MAP avg.                    |        0.4034 |        0.3624 |         0.4628 |         0.4144 |        0.9288 |         0.925 |
+| MAP std.                    |        0.0178 |        0.0214 |         0.0248 |           0.03 |        0.0065 |        0.0075 |
+| Recall@1 score avg.         |        0.2761 |        0.5964 |         0.3093 |         0.6725 |        0.8686 |        0.9272 |
+| Recall@1 score std.         |        0.0189 |        0.0848 |         0.0308 |         0.0709 |        0.0236 |        0.0019 |
+| Recall@1 above chance avg.  |        9.8453 |       21.2748 |        11.0305 |        23.9825 |       30.9696 |       33.0591 |
+| Recall@5 score avg.         |        0.2992 |         0.894 |         0.3501 |         0.9567 |         0.894 |         0.938 |
+| Recall@5 score std.         |        0.0217 |        0.0399 |         0.0276 |         0.0151 |        0.0193 |        0.0024 |
+| Recall@5 above chance avg.  |        2.3761 |        7.0972 |         2.7806 |         7.5963 |        7.0975 |        7.4475 |
+| Recall@10 score avg.        |        0.3428 |        0.9503 |         0.3939 |         0.9897 |        0.9336 |        0.9663 |
+| Recall@10 score std.        |        0.0203 |        0.0088 |         0.0259 |         0.0031 |        0.0328 |        0.0009 |
+| Recall@10 above chance avg. |        1.5383 |        4.2645 |          1.768 |         4.4411 |         4.189 |        4.3362 |
 
 **Table 2:** Multimodal Three Tower CNN performance for each pair and direction of modalities.  
 
